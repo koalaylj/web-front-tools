@@ -22,9 +22,14 @@
 
 * TTF字体抽取工具
   * 简介: 完整的ttf字库太大，可将程序用的ttf字体抽取出来，只保留程序用的文字。
+
   * demo: 执行`npm run font` or `node ./demo/font。`
+
   * 注释见代码内。
-  * 底层使用[fontmin](https://github.com/ecomfe/fontmin)![font](./doc/image/font.png)
+
+  * 底层使用[fontmin](https://github.com/ecomfe/fontmin)。![font](./doc/image/font.png)
+
+    
 * PNG图片压缩工具
   * demo:执行 `npm run image` or `node ./demo/image`。
   * 注释见代码内部。
