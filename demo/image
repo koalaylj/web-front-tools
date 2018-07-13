@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+//png图片压缩
+const image = require("../src/image");
+
+image.min(
+    //要压缩的图片,globby风格参考  https://www.npmjs.com/package/globby patterns 
+    ['test/**/*.png'],
+
+    //压缩完的图片的存储路径
+    'dist/image',
+
+    //压缩参数(可省略不填启用默认的)，quality数值越小 压缩越狠 可以是 {quality: 40}, 或者 {quality: '30-50'}方式，
+    //具体参考 https://github.com/imagemin/imagemin-pngquant options
+    {
+        quality: '30-50',
+        speed: 3
+    }
+
+);
+
+// image.min(['test/**/*.png', '!node_modules'], 'imagexxx');

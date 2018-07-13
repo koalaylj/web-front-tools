@@ -1,0 +1,34 @@
+{
+  "label.currency": "￥",
+  "msg.not.enough.money": "余额不足",
+  "msg.spin.win": "恭喜你赢得 {{money}}元！",
+  "label.bet": "底注",
+  "label.line": "线",
+  "label.totalBet": "总投注额",
+  "label.win": "赢得",
+  "label.balance": "余额",
+  "label.demoBalance": "演示存款",
+
+  "label.congratulation": "恭喜",
+  "label.freeSpin": "你获得了 {{times}} 次免费转",
+  "label.restFreeSpin": "当前剩余 {{times}} 次免费转",
+
+  "ui.settings.totalBet":"总投注额",
+  "ui.settings.bet":"低注",
+  "ui.settings.auto":"自动转",
+
+  "errer.100": "客户端错误",
+  "errer.101": "服务器处理错误发生。",
+  "errer.102": "参数传递错误。",
+  "errer.103": "游戏参数不正确。",
+  "errer.104": "游戏底注不正确。",
+  "errer.105": "您当前有未完成的奖励，请重新进入游戏。",
+  "errer.106": "您的账户余额不足。",
+  "errer.107": "当前游戏线注与进入免费转时不同，请重新进入游戏！",
+  "errer.108": "当前奖励游戏不存在，请重新进入游戏！",
+  "errer.109": "游戏参数错误！请不要尝试以外挂或其他非法方式进行游戏！",
+
+  "errer.999": "请重新进入游戏！",
+  "error.load": "加载失败，请刷新页面！"
+
+}

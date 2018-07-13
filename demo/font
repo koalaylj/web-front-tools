@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+
+//字体抽取工具
+const font = require("../src/font");
+const path = require("path");
+const fs = require("fs");
+
+const chalk = require('chalk');
+const log = require('fancy-log');
+
+//解析为一个绝对路径。
+let textFile = path.resolve('test/font/zh-cn.json');
+
+let fontSrc = path.resolve('test/font/方正汉真广标简体.ttf');
+let fontDest = path.resolve('dist/font');
+
+fs.readFile(textFile, 'utf8', (err, text) => {
+    if (err) {
+        log.error(chalk.red(`read file error ${textFile}`));
+        return;
+    }
+
+    text = `${text}01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`;
+
+    //去掉重复的文字
+    let uniqueText = text.split('').filter(function (item, i, arr) {
+        return arr.indexOf(item) === i;
+    }).sort().join('');
+
+    log(chalk.yellow(uniqueText));
+
+
+    font.extract(fontSrc, uniqueText, fontDest, 'fangzheng', err => {
+        if (err) {
+            log.error(chalk.red(`字体抽取失败 ${err}`));
+            return;
+        }
+
+        log(chalk.green('成功抽取字体'));
+    });
+});
