@@ -27,14 +27,18 @@
 
   * 注释见代码内。
 
-  * 底层使用[fontmin](https://github.com/ecomfe/fontmin)。![font](./doc/image/font.png)
+  * 底层使用[fontmin](https://github.com/ecomfe/fontmin)。
+
+  * 截图: ![font](./doc/image/font.png)
 
     
+
 * PNG图片压缩工具
   * demo:执行 `npm run image` or `node ./demo/image`。
   * 注释见代码内部。
   * 目前只能压缩PNG图片。
-  * 底层使用 [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant)压缩的图片，可调节压缩参数，最高能压缩60%-70%左右。![font](./doc/image/imagemin.png)
+  * 底层使用 [imagemin-pngquant](https://github.com/imagemin/imagemin-pngquant)压缩的图片，可调节压缩参数，最高能压缩60%-70%左右。
+  * 截图: ![font](./doc/image/imagemin.png)
 
 ### 交流
 
