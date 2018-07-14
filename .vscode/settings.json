@@ -1,0 +1,7 @@
+{
+  "eslint.enable": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "npm-scripts.showStartNotification": false
+}

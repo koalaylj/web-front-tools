@@ -9,28 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://47.94.43.117:8088/YuLijun/web-front-tools.git"
+    "url": "https://github.com/koalaylj/web-front-tools.git"
   },
-  "author": "",
+  "author": "yulijun",
   "license": "MIT",
-  "devDependencies": {
-    "fontmin": "^0.9.7-beta",
-    "gulp": "^3.9.1",
-    "gulp-if": "^2.0.2",
-    "gulp-rename": "^1.3.0",
-    "yargs": "^12.0.1"
-  },
   "dependencies": {
     "async": "^2.6.1",
     "chalk": "^2.4.1",
     "fancy-log": "^1.3.2",
     "fontmin": "^0.9.7-beta",
     "globby": "^8.0.1",
-    "gulp": "^3.9.1",
-    "gulp-if": "^2.0.2",
     "gulp-rename": "^1.3.0",
     "imagemin-pngquant": "^5.1.0",
-    "make-dir": "^1.3.0",
-    "yargs": "^12.0.1"
+    "make-dir": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
   }
 }

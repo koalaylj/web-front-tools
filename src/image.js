@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const makeDir = require('make-dir');
 const chalk = require('chalk');
-var log = require('fancy-log');
+const log = require('fancy-log');
 
 
 

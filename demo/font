@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 //字体抽取工具
-const font = require("../src/font");
-const path = require("path");
-const fs = require("fs");
+const font = require('../src/font');
+const path = require('path');
+const fs = require('fs');
 
 const chalk = require('chalk');
 const log = require('fancy-log');

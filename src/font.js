@@ -1,5 +1,5 @@
-var Fontmin = require('fontmin');
-var rename = require('gulp-rename');
+const Fontmin = require('fontmin');
+const rename = require('gulp-rename');
 
 /**
  * 从给定的ttf字体文件中抽取出给定文本，并生成新字体。
@@ -11,7 +11,7 @@ var rename = require('gulp-rename');
  */
 function extract(src, text, dest, fontName, done) {
 
-    var fontmin = new Fontmin();
+    let fontmin = new Fontmin();
 
     fontmin.src(src)
         .use(Fontmin.glyph({

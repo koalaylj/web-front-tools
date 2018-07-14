@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 //png图片压缩
-const image = require("../src/image");
+const image = require('../src/image');
 
 image.min(
     //要压缩的图片,globby风格参考  https://www.npmjs.com/package/globby patterns 
